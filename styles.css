@@ -53,6 +53,26 @@ body {
         position: absolute; left: 24px;top: 1080px;
         font-family: Geneva, arial, Helvetica, sans-serif;
         font-size: 12px;
-        color: #000000;
-            
+        color: #000000;          
+}
+.slide{
+        position: absolute; left: 250px; top: 250px;
+}
+.slidetitle{
+        position: absolute; left: 400px; top: 890px;
+        font-family: Geneva, arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: black;
+}
+.slideprevious{
+        position: absolute; left: 350px; top: 920px;
+        font-family: Geneva, arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: black;
+}
+.slidenext{
+        position: absolute; left: 550px; top: 920px;
+        font-family: Geneva, arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: black;
 }
