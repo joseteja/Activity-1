@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Erehwon Guest House Contact Form</title>
+  <meta name="keywords" content="Erehwon Guest House, East Coast Breaks, Competitive Prices, Family Business, Bed and Breakfast, Bed &amp; Breakfast, Contact Erehwon Guest House"/>
+  <meta name="description" content="Erehwon Guest House is your home from home place to  stay in the East Coast, with commanding sea views and providing access to the best locations on the region. There are special rates for short breaks and weekenders"/>
+  <meta name="author" content="Jose Teja"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+   <div class= "heading">
+    <h1>Erehwon Guest House</h1>
+   </div>
+   <div class= "subheading">
+    <h2>Bed &amp; Breakfast</h2>
+   </div>
+   <nav class= "navigation">
+    <p> 
+        <a href = "home.html">Home |</a> 
+        <a href = "slide.html">Picture Gallery |</a>
+        <a href = "map.html">Map |</a> 
+        <a href="links.html">Useful Links |</a> 
+        <a href="prices.html">Prices |</a>
+        <a href="contact.html">Contact us</a>
+    </p> 
+   </nav> 
+   <!-- Opening the form element -->    
+   <form action="mailto:jose.teja1967@gmail.com" method="post">
+   <!-- Contact information fieldset -->
+   <div id="forminfo">
+    <fieldset>
+    <legend>Personal Information</legend>
+    <label>First Name: <input name= "first_name" type="text" /></label>
+    <label>Last Name: <input name= "last_name" type="text" /> <br /></label>
+    <label>Email: <input name= "email_address" type="text" /></label>
+    </fieldset>
+    </div>
+    <!-- Type of feedback fieldset -->
+   <fieldset>
+    <legend>Type of Feedback</legend>
+       <label><input name="feedback_type" type="checkbox" value="Availability"/> Room Availability</label>
+       <label><input name="feedback_type" type="checkbox" value="Feedback"/> Feedback</label>
+    </fieldset>
+   <!-- Input text field -->
+    <fieldset>
+    <legend>Your Feedback</legend>
+        <p>Enter your feedback in the space below</p><br />
+        <textarea name="Query" rows="15" cols="60">
+        </textarea>
+    </fieldset>
+    <!-- Submit and reset buttons -->
+    <p><input type="submit" name="submit" value="Submit" />
+    <input type="reset" name="reset" value="Clear Form" /></p>
+    </form>
+   <footer class="footer">&copy;2018 Erehwon Guest House</footer>
+</body>
+</html>
